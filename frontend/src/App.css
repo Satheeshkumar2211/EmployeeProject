@@ -1,0 +1,119 @@
+* {
+    font-family: Inter, sans-serif !important;
+}
+
+.curso-pointer {
+    cursor: pointer !important;
+}
+
+.basic-color {
+    color: #3264f7e8 !important;
+}
+
+.basic-background {
+    background-color: #3264f7e8 !important;
+}
+
+.Submit-btn {
+    background-color: #3264f7e8 !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: #ccc !important;
+}
+
+.Image-employee {
+    /* background-size: cover !important;
+    border-radius: 61px !important; */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 8px;
+}
+
+.edit-img-style {
+    height: 1rem !important;
+    bottom: .6rem !important;
+    left: 5rem !important;
+    background: #fff;
+    border: 0px !important;
+}
+
+.light-grey {
+    background-color: #D2D2D2 !important;
+}
+
+.sidebar-text {
+    color: grey !important;
+    font-weight: 400 !important;
+}
+
+.Table-text {
+    color: grey !important;
+    font-weight: 400 !important;
+}
+
+.table-data {
+    font-weight: 400 !important;
+    color: rgb(0 0 0 / 74%) !important;
+    font-size: 14px !important;
+}
+
+.table {
+    border-collapse: separate !important;
+    border-spacing: 0 8px;
+}
+
+.table tbody tr {
+    transition: background-color 0.3s ease, transform 0.2s ease !important;
+    border-radius: 12px !important;
+    transition: all 0.3s ease !important;
+    /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important; */
+}
+
+.table tbody tr:hover {
+    background-color: #d3d3d3ad !important;
+    transform: scale(1.01) !important;
+    cursor: pointer !important;
+    border: 0px !important;
+}
+
+.form-label {
+    color: grey !important;
+    font-weight: 400 !important;
+}
+
+.text-shadow {
+    text-shadow: 0px 0px 5px black !important;
+}
+
+.form-control {
+    padding: 11px 16px !important;
+}
+
+.no-border {
+    border: none !important;
+    background: #F8F9FA !important;
+}
+
+.active-sidebar {
+    background-color: #3264f7e8 !important;
+    border-radius: 0px 30px 30px 0px !important;
+    color: white !important;
+}
+
+.sidebar-text:hover {
+    background-color: #3264f7e8 !important;
+    border-radius: 0px 30px 30px 0px !important;
+    color: white !important;
+}
+
+table tbody tr:hover {
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
